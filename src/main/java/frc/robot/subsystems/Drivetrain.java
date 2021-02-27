@@ -40,7 +40,7 @@ public class Drivetrain extends SubsystemBase {
         rightFollowers[i] = new CANSparkMax(Constants.kRightFollowers[i], MotorType.kBrushed);
     }
     leftMotors = new SpeedControllerGroup(leftLeader, leftFollowers);
-    rightMotors = new SpeedControllerGroup(leftLeader, leftFollowers);
+    rightMotors = new SpeedControllerGroup(rightLeader, rightFollowers);
     differentialDrive = new DifferentialDrive(leftMotors, rightMotors);
   }
 
