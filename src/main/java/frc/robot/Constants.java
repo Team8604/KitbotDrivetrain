@@ -15,6 +15,6 @@ package frc.robot;
 public final class Constants {
     public static final int kLeftLeader = 20;
     public static final int kRightLeader = 23;
-    public static final int[] kLeftFollowers = {21,22};
-    public static final int[] kRightFollowers = {24,25};
+    public static final int[] kLeftFollowers = {21};
+    public static final int[] kRightFollowers = {24};
 }
